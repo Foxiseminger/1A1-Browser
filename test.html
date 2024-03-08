@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Test Button</title>
+</head>
+<body>
+<h1>1AI Browser</h1> <!-- A heading element with the text "1AI Browser" -->
+<input id="url" type="text" placeholder="Enter a URL"> <!-- An input element with the id "url" -->
+<button onclick="goToUrl()">Go</button> <!-- A button element with the text "Go" -->
+<script>
+function goToUrl() {
+  // Get the input element with id "url"
+  var input = document.getElementById("url");
+
+  // Get the value of the input element
+  var url = input.value;
+
+  // Check if the url is not empty
+  if (url) {
+    // Redirect the window to the url
+    window.location.href = url;
+  }
+}
+</script>
+</body>
+</html>

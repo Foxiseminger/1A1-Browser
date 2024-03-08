@@ -1,0 +1,7 @@
+p {
+  font-family: sans-serif; /* Use the generic sans-serif font */
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif; /* Use Arial as the first choice, Helvetica as the second choice, or the generic sans-serif font as the last choice */
+}
